@@ -61,6 +61,5 @@ See `License file <https://github.com/sunwei/ddd-base/blob/master/LICENSE>`_
    :target: https://travis-ci.com/sunwei/ddd-base
 .. |Pypi Status| image:: https://badge.fury.io/py/envoy-webhook-auth-decorator.svg
    :target: https://badge.fury.io/py/envoy-webhook-auth-decorator
-.. |Coveralls Status| image:: https://coveralls.io/repos/github/sunwei/envoy-webhook-auth-decorator/badge.svg?branch=master
-   :target: https://coveralls.io/github/sunwei/envoy-webhook-auth-decorator?branch=master
-
+.. |Coveralls Status| image:: https://coveralls.io/repos/github/sunwei/ddd-base/badge.svg?branch=master
+   :target: https://coveralls.io/github/sunwei/ddd-base?branch=master
