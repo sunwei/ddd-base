@@ -25,11 +25,10 @@ long_description = (
     codecs.open(os.path.join(dirname, 'CHANGES.rst'), encoding='utf-8').read()
 )
 
-
 setup(
     name='ddd-base',
     version='0.0.1',
-    description='Domain Driven Design base framework for python',
+    description='DDD base framework for python',
     long_description=long_description,
     author='Sun Wei',
     author_email='wayde.sun@gmail.com',
