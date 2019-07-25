@@ -10,44 +10,44 @@ From source code:
 
 ::
 
-python setup.py install
+   python setup.py install
 
 From pypi:
 
 ::
 
-pip install ddd-base
+   pip install ddd-base
 
 Usage
 -----
 
 ::
 
-from ddd_base.value_object import ValueObject
+   from ddd_base.value_object import ValueObject
 
 
-class TestValueObject(ValueObject):
+   class TestValueObject(ValueObject):
 
-    def __init__(self, name):
-        super().__init__()
-        self.name = name
+       def __init__(self, name):
+           super().__init__()
+           self.name = name
 
-    def __eq__(self, other):
-        if not isinstance(other, ValueObject):
-            return NotImplemented
+       def __eq__(self, other):
+           if not isinstance(other, ValueObject):
+               return NotImplemented
 
-        return self.name == other.name
+           return self.name == other.name
 
 
-def mytest():
-   print("Testing...")
-   a_value_object = TestValueObject("name")
-   b_value_object = TestValueObject("name")
+   def mytest():
+      print("Testing...")
+      a_value_object = TestValueObject("name")
+      b_value_object = TestValueObject("name")
 
-   print(a_value_object.same_as(b_value_object))
+      print(a_value_object.same_as(b_value_object))
 
-if __name__ == '__main__':
-   mytest()
+   if __name__ == '__main__':
+      mytest()
 
 
 License
