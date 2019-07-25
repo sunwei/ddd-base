@@ -36,7 +36,7 @@ long_description = (
 
 setup(
     name='ddd-base',
-    version=ABOUT['__version__'],
+    version='0.0.1',
     description='Domain Driven Design base framework for python',
     long_description=long_description,
     author='Sun Wei',
