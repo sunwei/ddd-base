@@ -40,14 +40,14 @@ Usage
 
 
    def mytest():
-      print("Testing...")
-      a_value_object = TestValueObject("name")
-      b_value_object = TestValueObject("name")
+       print("Testing...")
+       a_value_object = TestValueObject("name")
+       b_value_object = TestValueObject("name")
 
-      print(a_value_object.same_as(b_value_object))
+       print(a_value_object.same_as(b_value_object))
 
    if __name__ == '__main__':
-      mytest()
+       mytest()
 
 
 License
