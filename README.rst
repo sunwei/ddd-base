@@ -25,7 +25,6 @@ Usage
 
    from ddd_base.value_object import ValueObject
 
-
    class TestValueObject(ValueObject):
 
        def __init__(self, name):
