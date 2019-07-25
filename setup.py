@@ -1,7 +1,6 @@
 """Setuptools entry point."""
 import codecs
 import os
-from setuptools import find_packages
 
 try:
     from setuptools import setup
@@ -43,7 +42,6 @@ setup(
     author='Sun Wei',
     author_email='wayde.sun@gmail.com',
     url='https://github.com/sunwei/ddd-base',
-    packages=find_packages(exclude=['tests*']),
+    packages=['ddd_base'],
     install_requires=[],
-    classifiers=CLASSIFIERS
-)
+    classifiers=CLASSIFIERS)
