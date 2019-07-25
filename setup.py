@@ -27,7 +27,7 @@ long_description = (
 
 setup(
     name='ddd-base',
-    version='0.0.1',
+    version='0.0.2',
     description='DDD base framework for python',
     long_description=long_description,
     author='Sun Wei',
