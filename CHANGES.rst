@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.5
+-----
+
+- Add use example
+
 0.0.4
 -----
 

@@ -23,14 +23,28 @@ Usage
 
 ::
 
-    import envoy_webhook_auth_decorator
+    from ddd_base.value_object import ValueObject
 
-    @envoy_webhook_auth_decorator.authentication({"api_key": ..., "timestamp": ..., "token": ..., "signature": ...})
-    def mytest():
-        print("Testing...")
 
-    if __name__ == '__main__':
-        mytest()
+    class TheValueObject(ValueObject):
+
+        def __init__(self, name):
+            super(TheValueObject, self).__init__()
+            self.name = name
+
+        def __eq__(self, other):
+            if not isinstance(other, ValueObject):
+                return NotImplemented
+
+            return self.name == other.name
+
+
+    def test_value_object_compare():
+        a_value_object = TheValueObject("name")
+        b_value_object = TheValueObject("name")
+
+        assert a_value_object.same_as(b_value_object)
+
 
 
 License
