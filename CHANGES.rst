@@ -1,10 +1,15 @@
 Changelog
 =========
 
+0.0.3
+-----
+
+- Smart setup
+
 0.0.2
 -----
 
-- Support Envoy webhook callback authentication
+- Minimise description
 
 0.0.1
 -----
